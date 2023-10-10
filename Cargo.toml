@@ -1,0 +1,10 @@
+[package]
+name = "ffitests"
+version = "0.1.0"
+
+[dependencies]
+libc = "*"
+
+[lib]
+crate-type = ["cdylib"]
+
